@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="广州皓睿智能电器有限公司产品中心 - 智能家居、厨房电器、个人护理、照明设备、消费电子等批发产品目录">
+    <title>产品中心 | 广州皓睿智能电器有限公司</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+<nav class="bg-white shadow-sm sticky top-0 z-50 border-b">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16 items-center">
+            <div class="flex items-center space-x-2">
+                <a href="index.html" class="text-2xl font-bold text-blue-700 hover:text-blue-800">皓睿电器</a>
+                <span class="hidden sm:inline text-sm text-gray-400">| Haorui Electric</span>
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="index.html" class="text-gray-600 hover:text-blue-600 transition">首页</a>
+                <a href="about.html" class="text-gray-600 hover:text-blue-600 transition">关于我们</a>
+                <a href="products.html" class="text-blue-600 border-b-2 border-blue-600 pb-1">产品中心</a>
+                <a href="contact.html" class="text-gray-600 hover:text-blue-600 transition">联系我们</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-600 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t px-4 py-3 space-y-2">
+        <a href="index.html" class="block text-gray-600 py-1">首页</a>
+        <a href="about.html" class="block text-gray-600 py-1">关于我们</a>
+        <a href="products.html" class="block text-blue-600 font-medium py-1">产品中心</a>
+        <a href="contact.html" class="block text-gray-600 py-1">联系我们</a>
+    </div>
+</nav>
+
+<section class="bg-blue-700 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl font-bold mb-3">产品中心</h1>
+        <p class="text-blue-100 text-lg">Products &amp; Categories</p>
+    </div>
+</section>
+
+<section class="py-16 md:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Category 1: Smart Home -->
+        <div class="mb-16" id="smart-home">
+            <h2 class="text-2xl font-bold text-gray-900 mb-2 border-l-4 border-blue-600 pl-4">智能家居电器</h2>
+            <p class="text-gray-400 text-sm mb-8 pl-5">Smart Home Appliances</p>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-blue-100 to-blue-50 flex items-center justify-center text-5xl">🔌</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-blue-600 transition">智能插座 / Smart Plug</h3>
+                        <p class="text-sm text-gray-500 mt-1">WiFi/蓝牙控制，定时开关，电量监测</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-blue-100 to-blue-50 flex items-center justify-center text-5xl">💡</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-blue-600 transition">智能灯泡 / Smart Bulb</h3>
+                        <p class="text-sm text-gray-500 mt-1">RGB调色，语音控制，场景模式</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-blue-100 to-blue-50 flex items-center justify-center text-5xl">📷</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-blue-600 transition">安防摄像头 / IP Camera</h3>
+                        <p class="text-sm text-gray-500 mt-1">1080P/4MP，夜视，移动侦测，双向语音</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-blue-100 to-blue-50 flex items-center justify-center text-5xl">🔊</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-blue-600 transition">智能音箱 / Smart Speaker</h3>
+                        <p class="text-sm text-gray-500 mt-1">蓝牙5.0，语音助手，多房间同步</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category 2: Kitchen -->
+        <div class="mb-16" id="kitchen">
+            <h2 class="text-2xl font-bold text-gray-900 mb-2 border-l-4 border-orange-500 pl-4">厨房电器</h2>
+            <p class="text-gray-400 text-sm mb-8 pl-5">Kitchen Appliances</p>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-orange-100 to-yellow-50 flex items-center justify-center text-5xl">🍟</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-orange-500 transition">空气炸锅 / Air Fryer</h3>
+                        <p class="text-sm text-gray-500 mt-1">3.5L-8L，数字触控，无油健康烹饪</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-orange-100 to-yellow-50 flex items-center justify-center text-5xl">🧃</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-orange-500 transition">榨汁机 / Juicer</h3>
+                        <p class="text-sm text-gray-500 mt-1">慢速榨汁，渣汁分离，易清洗设计</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-orange-100 to-yellow-50 flex items-center justify-center text-5xl">☕</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-orange-500 transition">咖啡机 / Coffee Maker</h3>
+                        <p class="text-sm text-gray-500 mt-1">滴漏式/胶囊式，自动保温，大容量</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-orange-100 to-yellow-50 flex items-center justify-center text-5xl">🫖</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-orange-500 transition">电热水壶 / Electric Kettle</h3>
+                        <p class="text-sm text-gray-500 mt-1">304不锈钢，自动断电，1.7L-2.0L</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category 3: Personal Care -->
+        <div class="mb-16" id="personal-care">
+            <h2 class="text-2xl font-bold text-gray-900 mb-2 border-l-4 border-pink-500 pl-4">个人护理电器</h2>
+            <p class="text-gray-400 text-sm mb-8 pl-5">Personal Care Appliances</p>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-pink-100 to-rose-50 flex items-center justify-center text-5xl">🪥</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-pink-500 transition">电动牙刷 / Electric Toothbrush</h3>
+                        <p class="text-sm text-gray-500 mt-1">声波震动，IPX7防水，多模式</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-pink-100 to-rose-50 flex items-center justify-center text-5xl">💨</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-pink-500 transition">吹风机 / Hair Dryer</h3>
+                        <p class="text-sm text-gray-500 mt-1">负离子护发，恒温不伤发，轻量设计</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-pink-100 to-rose-50 flex items-center justify-center text-5xl">✨</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-pink-500 transition">美容仪 / Beauty Device</h3>
+                        <p class="text-sm text-gray-500 mt-1">超声波导入，LED光疗，面部提拉</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-pink-100 to-rose-50 flex items-center justify-center text-5xl">🪒</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-pink-500 transition">电动剃须刀 / Electric Shaver</h3>
+                        <p class="text-sm text-gray-500 mt-1">3D浮动刀头，干湿两用，USB充电</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category 4: Lighting -->
+        <div class="mb-16" id="lighting">
+            <h2 class="text-2xl font-bold text-gray-900 mb-2 border-l-4 border-yellow-500 pl-4">照明设备</h2>
+            <p class="text-gray-400 text-sm mb-8 pl-5">Lighting Products</p>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-yellow-100 to-amber-50 flex items-center justify-center text-5xl">💡</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-yellow-600 transition">LED灯泡 / LED Bulb</h3>
+                        <p class="text-sm text-gray-500 mt-1">E27/B22，3W-15W，暖白/冷白</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-yellow-100 to-amber-50 flex items-center justify-center text-5xl">🪴</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-yellow-600 transition">台灯 / Desk Lamp</h3>
+                        <p class="text-sm text-gray-500 mt-1">护眼LED，折叠便携，触控调光</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-yellow-100 to-amber-50 flex items-center justify-center text-5xl">🔦</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-yellow-600 transition">户外照明 / Outdoor Light</h3>
+                        <p class="text-sm text-gray-500 mt-1">太阳能路灯，投光灯，防水IP65</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-yellow-100 to-amber-50 flex items-center justify-center text-5xl">🎄</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-yellow-600 transition">节日灯饰 / Decorative Lights</h3>
+                        <p class="text-sm text-gray-500 mt-1">LED灯串，圣诞灯饰，RGB氛围灯</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category 5: Consumer Electronics -->
+        <div class="mb-16" id="electronics">
+            <h2 class="text-2xl font-bold text-gray-900 mb-2 border-l-4 border-green-500 pl-4">消费电子</h2>
+            <p class="text-gray-400 text-sm mb-8 pl-5">Consumer Electronics</p>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-green-100 to-emerald-50 flex items-center justify-center text-5xl">🎧</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-green-600 transition">蓝牙耳机 / Bluetooth Earbuds</h3>
+                        <p class="text-sm text-gray-500 mt-1">TWS真无线，ENC降噪，长续航</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-green-100 to-emerald-50 flex items-center justify-center text-5xl">🔋</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-green-600 transition">充电宝 / Power Bank</h3>
+                        <p class="text-sm text-gray-500 mt-1">10000-30000mAh，快充PD，轻薄款</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-green-100 to-emerald-50 flex items-center justify-center text-5xl">🔗</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-green-600 transition">数据线 / Charging Cable</h3>
+                        <p class="text-sm text-gray-500 mt-1">Type-C/Micro/Lightning，尼龙编织</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-green-100 to-emerald-50 flex items-center justify-center text-5xl">⌚</div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-900 group-hover:text-green-600 transition">智能手表 / Smart Watch</h3>
+                        <p class="text-sm text-gray-500 mt-1">心率血氧监测，IP68防水，多运动模式</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Note -->
+        <div class="bg-blue-50 border border-blue-200 rounded-xl p-6 text-center">
+            <p class="text-blue-800">
+                📦 以上仅为部分展示品类，我们支持灵活的定制采购需求。<br>
+                <span class="text-sm text-blue-600">如需完整产品目录或询价，请 <a href="contact.html" class="underline font-semibold">联系我们</a>。</span>
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<footer class="bg-gray-900 text-gray-300 pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-8 mb-12">
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">广州皓睿智能电器有限公司</h3>
+                <p class="text-sm text-gray-400 leading-relaxed">Guangzhou Haorui Intelligent Electric Appliances Co., Ltd.</p>
+            </div>
+            <div>
+                <h3 class="text-white font-semibold mb-4">快速链接</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="index.html" class="text-gray-400 hover:text-white transition">首页</a></li>
+                    <li><a href="about.html" class="text-gray-400 hover:text-white transition">关于我们</a></li>
+                    <li><a href="products.html" class="text-gray-400 hover:text-white transition">产品中心</a></li>
+                    <li><a href="contact.html" class="text-gray-400 hover:text-white transition">联系我们</a></li>
+                    <li><a href="privacy.html" class="text-gray-400 hover:text-white transition">隐私政策</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white font-semibold mb-4">联系方式</h3>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li>📍 广州市白云区黄园路135号710房</li>
+                    <li>📧 <span class="text-gray-500">（待更新）</span></li>
+                    <li>📞 <span class="text-gray-500">（待更新）</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 text-center text-sm text-gray-500">
+            <p>&copy; 2026 广州皓睿智能电器有限公司. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

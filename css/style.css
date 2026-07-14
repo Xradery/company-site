@@ -1,0 +1,66 @@
+/* ============================================
+   广州皓睿智能电器有限公司 - 官网自定义样式
+   Guangzhou Haorui Intelligent Electric Appliances Co., Ltd.
+   ============================================ */
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom selection color */
+::selection {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+/* Focus ring for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+}
+
+/* Product card hover animation */
+.hover\:shadow-lg {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.hover\:shadow-lg:hover {
+    transform: translateY(-2px);
+}
+
+/* Form input transitions */
+input, select, textarea {
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Print styles */
+@media print {
+    nav, footer, .bg-blue-700 {
+        background: none !important;
+        color: #000 !important;
+    }
+    body {
+        font-size: 12pt;
+    }
+}
+
+/* Mobile menu animation */
+#mobile-menu {
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+}
+
+/* Prose content spacing (for privacy page) */
+.prose h2 {
+    margin-top: 2rem;
+}
+.prose p {
+    margin-bottom: 1rem;
+}
+.prose ul {
+    margin-bottom: 1rem;
+}
